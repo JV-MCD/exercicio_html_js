@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    justify-content: center;
+    display: flex;
+}
+
+.container input,button{
+    width: 650px;
+    margin-bottom: 8px;
+    padding: 8px 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.menssagem-erro{
+    color: white;
+    background-color: red;
+    padding: 6px 0;
+    margin-bottom: 8px;
+    display: none;
+}
+
+.menssagem-sucesso{
+    color: white;
+    background-color: green;
+    padding: 6px 0;
+    margin-bottom: 8px;
+    display: none ;
+}
+
+input .error{
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
